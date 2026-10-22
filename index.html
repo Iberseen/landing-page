@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fokus · Planifica tu semana sin esfuerzo</title>
+  <meta name="description" content="Fokus es una app de planificación semanal. Landing de ejemplo: HTML semántico, CSS grid y diseño responsive.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Saltar al contenido</a>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#">Fokus</a>
+      <nav aria-label="Principal">
+        <ul class="nav">
+          <li><a href="#funciones">Funciones</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <a class="btn btn--small" href="#precios">Empezar</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div>
+          <p class="eyebrow">Planificación semanal</p>
+          <h1>Tu semana, clara desde el lunes.</h1>
+          <p class="lead">Organiza tareas, hábitos y reuniones en un único sitio. Menos ruido, más foco.</p>
+          <div class="hero__cta">
+            <a class="btn" href="#precios">Probar gratis</a>
+            <a class="btn btn--ghost" href="#funciones">Ver funciones</a>
+          </div>
+        </div>
+        <div class="mock" aria-hidden="true">
+          <div class="mock__bar"></div>
+          <div class="mock__row"></div><div class="mock__row mock__row--short"></div>
+          <div class="mock__row"></div><div class="mock__row mock__row--mid"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="funciones" class="section">
+      <div class="container">
+        <h2>Todo lo que necesitas, nada más</h2>
+        <div class="grid">
+          <article class="card"><h3>Vista semanal</h3><p>Visualiza tus siete días de un vistazo y mueve tareas con un gesto.</p></article>
+          <article class="card"><h3>Hábitos</h3><p>Marca rachas y mantén la constancia sin sentirte presionado.</p></article>
+          <article class="card"><h3>Recordatorios</h3><p>Avisos discretos solo cuando importan, sin notificaciones de más.</p></article>
+          <article class="card"><h3>Sincronización</h3><p>Tus datos al día en el móvil y en el ordenador.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="precios" class="section section--alt">
+      <div class="container">
+        <h2>Precios sencillos</h2>
+        <div class="grid grid--3">
+          <article class="plan">
+            <h3>Gratis</h3><p class="price">0&nbsp;€</p>
+            <ul><li>Hasta 20 tareas</li><li>1 dispositivo</li></ul>
+            <a class="btn btn--ghost" href="#">Empezar</a>
+          </article>
+          <article class="plan plan--featured">
+            <h3>Pro</h3><p class="price">4&nbsp;€<span>/mes</span></p>
+            <ul><li>Tareas ilimitadas</li><li>Hábitos y rachas</li><li>Sincronización</li></ul>
+            <a class="btn" href="#">Elegir Pro</a>
+          </article>
+          <article class="plan">
+            <h3>Equipo</h3><p class="price">9&nbsp;€<span>/mes</span></p>
+            <ul><li>Todo en Pro</li><li>Hasta 10 personas</li></ul>
+            <a class="btn btn--ghost" href="#">Contactar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container container--narrow">
+        <h2>Preguntas frecuentes</h2>
+        <details><summary>¿Puedo cancelar cuando quiera?</summary><p>Sí, sin permanencia ni letra pequeña.</p></details>
+        <details><summary>¿Hay versión móvil?</summary><p>La web funciona en cualquier dispositivo y puede instalarse como app.</p></details>
+        <details><summary>¿Mis datos están seguros?</summary><p>Se almacenan cifrados y puedes exportarlos o borrarlos cuando quieras.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Página de ejemplo creada por <a href="https://allenmatira.netlify.app/">Allen Iverson Gatdula</a>. Fokus es un producto ficticio.</p>
+    </div>
+  </footer>
+</body>
+</html>
